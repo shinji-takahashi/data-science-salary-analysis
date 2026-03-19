@@ -8,7 +8,7 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 ## Dataset
 
-* Data Science Job Salaries (Kaggle)
+* Data Science Salaries 2023 (Kaggle)
 * ~3,000 observations
 
 ---
