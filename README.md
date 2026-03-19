@@ -9,15 +9,15 @@ This project analyzes the factors that determine salaries in data science jobs, 
 ## Dataset
 
 * Data Science Salaries 2023 (Kaggle)
-* ~3,000 observations
+* 3,755 observations (3,004 in the training dataset)
 
 ---
 
 ## Objectives
 
 * Identify key drivers of salary
-* Examine the impact of remote work
 * Analyze global salary differences
+* Examine the impact of remote work on wage inequality
 
 ---
 
@@ -25,8 +25,8 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 ### Salary Distribution
 
-* Salary distribution is **right-skewed**
-* A small number of high-income individuals significantly increase the average salary
+* The salary distribution is approximately bell-shaped but exhibits slight right skewness due to a small number of high-income observations.
+* Consequently, the mean is modestly higher than the median.
 
 ### Country-wise Distribution
 
