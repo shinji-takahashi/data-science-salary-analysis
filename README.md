@@ -16,8 +16,8 @@ This project analyzes the factors that determine salaries in data science jobs, 
 ## Objectives
 
 * Identify key drivers of salary
+* Examine the impact of remote work
 * Analyze global salary differences
-* Examine the impact of remote work on wage inequality
 
 ---
 
@@ -139,6 +139,11 @@ Under fixed conditions:
 
 ## Model Comparison
 
+### OLS (Statsmodels)
+
+* R²: 0.390
+* RMSE: 49,719
+
 ### Linear Regression
 
 * R²: 0.443
@@ -155,6 +160,8 @@ Under fixed conditions:
 * R²: 0.394
 * RMSE: 49,535
 * Top features: `work_year`, `remote_ratio`, `company_size`
+
+→  Linear Regression achieved the best performance, while OLS provided more interpretable coefficients. Tree-based models showed comparable performance but highlighted different feature importance patterns.
 
 ---
 
@@ -183,7 +190,7 @@ The findings highlight the complexity of global labor markets in data science.
 
 * Include company location interactions
 * Apply log-transformed models more robustly
-* Use causal inference methods (e.g., matching, IV)
+* Apply causal inference methods (e.g., propensity score matching) to better estimate causal effects
 * Analyze remote work effects within specific job roles
 
 ---
