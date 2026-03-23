@@ -83,12 +83,16 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 #### Geographic Effects (vs Canada)
 
+![Pointplot](images/pointplot.png)
+
 * Spain: −$86,000
 * UK: −$27,000
 * India: −$75,000
 * Other regions: −$63,000
 
 → Salary strongly depends on **location (cost of living, labor market, industry maturity)**
+
+* Confidence intervals are much narrower for the United States due to a larger sample size, while other countries show higher uncertainty.
 
 #### Same Country Effect
 
