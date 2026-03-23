@@ -25,13 +25,19 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 ### Salary Distribution
 
+![Salary Histogram](images/histogram.png)
 * The salary distribution is approximately bell-shaped but exhibits slight right skewness due to a small number of high-income observations.
 * Consequently, the mean is modestly higher than the median.
 
 ### Country-wise Distribution
 
-* The United States has many outliers exceeding **$300,000**
-* Salary distributions differ significantly by country
+![Country Bocplot](images/boxplot.png)
+
+* Salary distributions differ significantly by country.
+* High-income countries such as the United States and Canada exhibit higher median salaries and wider interquartile ranges, indicating greater variability in compensation.
+* In contrast, lower-income countries such as India and Spain show lower median salaries and more compact interquartile ranges.
+* This boxplot excludes outliers and therefore highlights differences in central tendency and dispersion across countries.
+* It is worth noting that the United States also contains many high-income outliers, which are not shown in this figure.
 
 ---
 
