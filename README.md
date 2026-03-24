@@ -83,14 +83,14 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 #### Geographic Effects (vs Canada)
 
-![Pointplot](images/pointplot.png)
-
 * Spain: −$86,000
 * UK: −$27,000
 * India: −$75,000
 * Other regions: −$63,000
 
 → Salary strongly depends on **location (cost of living, labor market, industry maturity)**
+
+![Pointplot](images/pointplot.png)
 
 * Confidence intervals are much narrower for the United States due to a larger sample size, while other countries show higher uncertainty.
 
@@ -103,12 +103,12 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 ## Remote Work × Country Interaction
 
-![Remote Work Impact](images/remote_work_impact.png)
-
 * Significant positive effect observed **only in Spain**
 * Salary increases by about **$460 per 1% increase in remote ratio**
 
 → Indicates that the impact of remote work may differ across countries
+
+![Remote Work Impact](images/remote_work_impact.png)
 
 * When the remote ratio increases from 0% to 100%, the impact on salary differs substantially across countries.
 * In lower-income countries such as India and Spain, salaries increase by approximately $3,500. In the United States, the increase is modest at around $1,000.
