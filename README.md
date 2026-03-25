@@ -175,8 +175,8 @@ Under fixed conditions:
 
 ### LightGBM
 
-* R²: 0.433
-* RMSE: 45,264
+* R²: 0.449
+* RMSE: 44,619
 * Top features: `work_year`, `remote_ratio`, `company_size`
 
 →  Linear Regression achieved the best performance, while OLS provided more interpretable coefficients. Tree-based models showed comparable performance but highlighted different feature importance patterns.
