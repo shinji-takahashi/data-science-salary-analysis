@@ -57,24 +57,25 @@ This project analyzes the factors that determine salaries in data science jobs, 
 #### Employment Type
 
 * Full-time employees earn about **$56,000 more** than contract workers
+* Employment type is **not statistically significant**
 
 #### Company Size
 
-* Small companies (<50 employees) pay about **$17,000 less** than large companies
+* Small companies (<50 employees) pay about **$15,000 less** than large companies (>250 employees)
 
 #### Job Title Effects (vs Analytics Engineer)
 
-* Applied Scientist: +$29,000
+* Applied Scientist: +$31,000
 * Data Analyst: −$32,000
-* Data Science Manager: +$39,000
-* Machine Learning Engineer: +$22,000
-* Research Scientist: +$38,000
+* Data Science Manager: +$36,000
+* Machine Learning Engineer: +$19,000
+* Research Scientist: +$36,000
 
 #### Experience Level (vs Entry-level)
 
-* Mid-level: +$19,000
-* Senior-level: +$41,000
-* Executive-level: +$84,000
+* Mid-level: +$18,000
+* Senior-level: +$44,000
+* Executive-level: +$91,000
 
 #### Interaction: Job Title × Experience
 
@@ -83,10 +84,10 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 #### Geographic Effects (vs Canada)
 
-* Spain: −$86,000
-* UK: −$27,000
+* Spain: −$83,000
+* UK: −$30,000
 * India: −$75,000
-* Other regions: −$63,000
+* Other regions: −$60,000
 
 → Salary strongly depends on **location (cost of living, labor market, industry maturity)**
 
@@ -104,7 +105,7 @@ This project analyzes the factors that determine salaries in data science jobs, 
 ## Remote Work × Country Interaction
 
 * Significant positive effect observed **only in Spain**
-* Salary increases by about **$460 per 1% increase in remote ratio**
+* Salary increases by about **$420 per 1% increase in remote ratio**
 
 → Indicates that the impact of remote work may differ across countries
 
