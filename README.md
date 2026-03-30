@@ -56,7 +56,7 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 #### Employment Type
 
-* Employment type is **not statistically significant** in the final regression model.
+* While simple mean comparisons suggest salary differences across employment types, employment type is **not statistically significant** in the regression model, likely due to the very small number of non–full-time observations.
 
 #### Company Size
 
