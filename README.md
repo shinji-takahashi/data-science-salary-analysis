@@ -31,7 +31,7 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 ### Country-wise Distribution
 
-![Country Bocplot](images/boxplot.png)
+![Country Boxplot](images/boxplot.png)
 
 * Salary distributions differ significantly by country.
 * High-income countries such as the United States and Canada exhibit higher median salaries and wider interquartile ranges, indicating greater variability in compensation.
@@ -122,9 +122,9 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 Under fixed conditions:
 
-* Job: Data Scientist
-* Experience: Senior
-* Employment: Full-time
+* Job title: Data Scientist
+* Experience level: Senior
+* Employment type: Full-time
 
 → Salary differences across countries can exceed **3x**
 
