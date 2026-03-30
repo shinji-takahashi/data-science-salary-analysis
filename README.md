@@ -159,8 +159,8 @@ Under fixed conditions:
 
 ### OLS (Statsmodels)
 
-* R²: 0.442
-* RMSE: 44,897
+* R²: 0.440
+* RMSE: 44,991
 
 ### Linear Regression
 
