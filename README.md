@@ -56,8 +56,7 @@ This project analyzes the factors that determine salaries in data science jobs, 
 
 #### Employment Type
 
-* Full-time employees earn about **$56,000 more** than contract workers
-* Employment type is **not statistically significant**
+* Employment type is **not statistically significant** in the final regression model.
 
 #### Company Size
 
